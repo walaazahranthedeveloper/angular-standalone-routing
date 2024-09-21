@@ -25,3 +25,17 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Description 
+
+###  Handling Routing
+
+
+ #### Angular's RouterModule is used for navigation between components. Key concepts:
+
+  ##### Routes: Define application routes using RouterModule.forRoot(routes).
+  ##### RouterLink and RouterOutlet: Use RouterLink to navigate and RouterOutlet as a placeholder for rendering components.
+  ##### Route Guards: Protect routes using guards like CanActivate and CanDeactivate.
+
+## Demo
+
+!(اhandling routing)[https://github.com/walaazahranthedeveloper/angular-lifecycle-demo/blob/master/Screenshot%202024-09-19%20171719.png](https://github.com/walaazahranthedeveloper/angular-standalone-routing/blob/master/recording.mp4]
