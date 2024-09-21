@@ -1,17 +1,21 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule } from '@angular/router';
+import { appRoutes } from './app.routes';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [
+    RouterModule
+  ],
   template: `
-    <h1>Welcome to {{title}}!</h1>
-
-    <router-outlet />
+    <nav>
+      <a routerLink="/">Home</a> |
+      <a routerLink="/about">About</a> |
+      <a routerLink="/dashboard">Dashboard</a> |
+      <a routerLink="/login">Login</a>
+    </nav>
+    <router-outlet></router-outlet>
   `,
-  styles: [],
 })
-export class AppComponent {
-  title = 'angular-standalone-routing';
-}
+export class AppComponent {}
