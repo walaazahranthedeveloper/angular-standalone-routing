@@ -38,4 +38,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Demo
 
-[![Watch the video](https://github.com/walaazahranthedeveloper/angular-standalone-routing/blob/master/recording.mp4)
+[![Watch the video](https://youtu.be/lIqH1Uki1nI)
+
